@@ -16,3 +16,13 @@ body {
     margin: 10px;
     background-color: brown;
 }
+
+.move {
+    animation: movement 1s forwards;
+  }
+  
+  @keyframes movement {
+    100%{
+      transform: translateX(1000%);
+    }
+  }
